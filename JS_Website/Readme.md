@@ -7,7 +7,7 @@ The objective of this project was to learn JavaScript by implementing a couple f
 - Carrousel on the gallery page
 - Forms
 
-## Home page with a feed
+## [Home page with a feed](https://github.com/nightandstars/Dev_Projects/tree/main/JS_Website/Home)
 
 Main objective: fetch an API to create an automatic feed
   - Dynamic creation of each article HTML block
