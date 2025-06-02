@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <header class="back_color">
+        <nav id="nav_bar">
+            <div class="dropdown">
+                <button id="btn" class="dropdown_btn">Menu</button>
+                <div id="btn_content" class="dropdown_content hidden">
+                    <a href="homes.html">Home</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="carousel">
+        <div class=" back_color slide">
+            <img alt="dungeons and dragons wizard" class="carousel_img" src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2019/12/dnd-wizbuild-coverimg.jpg">
+        </div>
+        <div class="back_color slide hidden">
+            <img alt="dungeons and dragons battle" class="carousel_img" src="https://www.dicedragons.co.uk/cdn/shop/articles/dnd-party-combat_3ede53ea-8c4e-4618-9657-db7ee3b6c574.jpg?v=1704229053&width=1100">
+        </div>
+        <div class="back_color slide hidden">
+            <img alt="dungeons and dragons ranger" class="carousel_img" src="https://artificialtwenty.com/wp-content/uploads/2024/02/sharpshooter-dnd-5e-1.jpg?w=723">
+        </div>
+    </div>
+    <button id="grid_view"><i class="fas fa-th"></i> Grid View</button>
+    <button id="column_view"><i class="fas fa-th-list"></i> Column View</button>
+    <div id="add_image_btn">
+        <button><i class="fas fa-image"></i> Add an image</button>
+        <div id="image_form" class="hidden">
+            <form id="submit_image">
+                <fieldset>
+                    <label class="white_text" for="img_file">Select a file</label><br>
+                    <input type="file" class="white_text" id="img_file"><br>
+                    <label class="white_text" for="img_url">Copy/Paste a URL</label><br>
+                    <input type="url" id="img_url"> <br>
+                    <input type="submit" value ="Submit">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <section id="gallery" class="grid_view">
+        
+    </section>
+    
+    <script src="gallery.js"></script>
+</body>
+</html>
