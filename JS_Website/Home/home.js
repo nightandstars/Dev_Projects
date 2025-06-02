@@ -32,7 +32,7 @@ function addArticle(result, CATEGORY_SELECTED){
         let attunement;
         //specific layout of the article for the magical items category
         if(CATEGORY_SELECTED == "v1/magicitems"){
-            const RARITY = ELEMENT.rarity.toLowerCase();
+            const rarity = ELEMENT.rarity.toLowerCase();
             if(ELEMENT.requires_attunement === ""){
                 attunement = "No";
             }
