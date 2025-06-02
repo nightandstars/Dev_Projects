@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Project</title>
+    <meta name ="description" content="First project using JS, create a website with a feed and a gallery">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header class="back_color">
+        <nav id="nav_bar" class="flex">
+            <div class="dropdown">
+                <button id="btn" class="dropdown_btn">Menu</button>
+                <div id="btn_content" class="dropdown_content hidden">
+                    <a href="home.html">Home</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    <h1 class="text_center">Dungeons and Dragons Information</h1>
+    <section id="dnd_articles" class="back_color white_text">
+        <div id="article_form">
+            <form id="submit_article">
+                <fieldset>
+                    <legend>To add an article in the feed, fill out this form:</legend>
+                    <label for="category">Choose a category:</label>
+                    <select name="category" id="category">
+                        <option value="random" selected>Choose for me</option>
+                        <option value="v2/conditions">Conditions</option>
+                        <option value="v1/magicitems">Magical Items</option>
+                        <option value="v1/planes">Planes</option>
+                    </select>
+                    <input type="submit" value ="Submit">
+                </fieldset>
+            </form>    
+        </div> 
+        <div id="user_articles">
+        </div>
+        <div id="api_articles">
+        </div>
+    </section>
+    <script src="home.js"></script>
+</body>
+</html>
