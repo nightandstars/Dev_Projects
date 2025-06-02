@@ -30,7 +30,7 @@ Notes:
    - As each object description can be quite different and include tables and others, I chose to ignore this part for the exercice and modify only the layout for the common keys (rarity, attunement)
 2. The most recent article shows up at the top of the feed, skills are always at the bottom
 
-## Gallery
+## [Gallery](https://github.com/nightandstars/Dev_Projects/tree/main/JS_Website/Gallery)
 
 Main objective: create a gallery letting the user choose between a grid or column display
 
