@@ -5,4 +5,6 @@ This repository is to give you an idea of the projects we have to realize, as we
 
 # Table of Contents
 
-[JavaScript Website](https://github.com/nightandstars/Dev_Projects/tree/main/JS_Website)
+[JavaScript Website](https://github.com/nightandstars/Dev_Projects/tree/main/JS_Website) (code)
+
+[JavaScript Website](https://nightandstars.github.io/Dev_Projects/JS_Website/Home/home.html) (live version)
