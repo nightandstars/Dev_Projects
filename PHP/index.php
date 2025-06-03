@@ -11,6 +11,6 @@ switch($_GET["page"]){
         include "contact.php";
         break;
     default:
-        include "dnd.php";
+        include "index.php";
         break;
 }
