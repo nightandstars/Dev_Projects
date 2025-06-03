@@ -1,0 +1,10 @@
+=== NEW CONTACT MESSAGE ===
+Date: 03-06-2025 10:17:53
+Civility: mrs
+First Name: john
+Last Name: smith
+Email: john.smith@gmail.com
+Subject: information
+Message: dyjtjdj
+=====================================
+
