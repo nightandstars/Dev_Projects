@@ -3,6 +3,8 @@ Welcome to this repository, here you will find the code for each project realise
 The course started on March 13th 2025 for an intensive 9 months, followed by a year of apprenticeship.
 This repository is to give you an idea of the projects we have to realize, as well as how I code and to have the beginning of a portfolio, although not perfect as this point in time.
 
+> Due to some issues with Github Pages cache, you might sometimes need to hard reload a page (CTRL + Shift + R) if a content isn't properly showing
+
 # Table of Contents
 
 [JavaScript Website](https://github.com/nightandstars/Dev_Projects/tree/main/JS_Website) (code)
