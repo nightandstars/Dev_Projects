@@ -1,7 +1,7 @@
 //lorem picsum API
 fetch("https://picsum.photos/v2/list")
 .then(response=> response.json())
-.then(result => add_Picture(result))
+.then(result => addPicture(result))
 .catch(() => showError());
 
 //API error handling
