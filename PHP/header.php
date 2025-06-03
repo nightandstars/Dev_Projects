@@ -14,8 +14,8 @@
             <div class="dropdown">
                 <button id="btn" class="dropdown_btn">Menu</button>
                 <div id="btn_content" class="dropdown_content hidden">
-                    <a href="/Dev_Projects/PHP/home.php">Home</a>
-                    <a href="/Dev_Projects/PHP/contact.php">Contact</a>
+                    <a href="/PHP/home.php">Home</a>
+                    <a href="/PHP/contact.php">Contact</a>
                 </div>
             </div>
         </nav>
