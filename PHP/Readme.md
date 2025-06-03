@@ -4,6 +4,7 @@ The objective of this project was to discover PHP, for this we had to create a q
 
 - Flow Control via an index page
 - Contact Form
+- Use of Bootstrap for form layout
 
 ## [Flow Control via an index page]()
 
