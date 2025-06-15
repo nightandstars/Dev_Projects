@@ -6,8 +6,6 @@ Each folder contains a Readme explaining the goal of the project, the features w
 
 > Due to some issues with Github Pages cache, you might sometimes need to hard reload a page on the JavaScript Website (CTRL + Shift + R) if a content isn't properly showing
 
-> OOP hasn't been fully implemented yet into the repository, it is a work in progress.
-
 # Table of Contents
 
 [JavaScript Website](https://github.com/nightandstars/Dev_Projects/tree/main/JS_Website) (code)
